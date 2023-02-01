@@ -10,10 +10,6 @@ body {
     min-height: 100vh;
 }
 
-.container {
-
-}
-
 .tilt-box-wrap {
     width: 400px;
     height: 400px;
@@ -30,14 +26,16 @@ body {
 .tilt-box {
     width: 100%;
     height: 100%;
-    background: blue;
+    background-image: url(/images/example.png);
+    background-size: cover;
+    box-shadow: -0.2em 0 0.4em #d2a83d;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    font-size: 90px;
+    font-size: 75px;
     text-transform: uppercase;
     transition: all 0.6s ease-out;
     transform: rotateX(0deg) rotateY(0deg);
